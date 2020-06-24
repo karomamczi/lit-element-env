@@ -36,5 +36,13 @@
   "bugs": {
     "url": "https://github.com/karomamczi/webpack-karma-mocha-chai-sinon/issues"
   },
-  "homepage": "https://github.com/karomamczi/webpack-karma-mocha-chai-sinon#readme"
+  "homepage": "https://github.com/karomamczi/webpack-karma-mocha-chai-sinon#readme",
+  "keywords": [
+    "es6",
+    "webpack",
+    "karma",
+    "mocha",
+    "chai",
+    "sinon"
+  ]
 }
