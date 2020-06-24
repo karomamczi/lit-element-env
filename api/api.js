@@ -10,8 +10,12 @@ export class Car {
     return `This car is made by ${this.make} with ${this.body} body type. It is driving with ${this.speed} right now.`;
   }
 
+  start() {
+    this.speed = 1;
+  }
+
   accelerate() {
-    this.speed = multiplySpeed();
+    this.speed = this.multiplySpeed();
     console.log(`Speed accelerated to: ${this.speed}`);
   }
 
@@ -20,7 +24,7 @@ export class Car {
   }
 
   break() {
-    this.shape = 0;
+    this.speed = 0;
     console.log('Stopped');
   }
 }
