@@ -3,7 +3,7 @@ const webpackConfig = require('./webpack.config');
 module.exports = (config) => {
   config.set({
     basePath: '',
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai', 'sinon'],
     files: [{ pattern: 'api/**/*.spec.js', type: 'module' }],
     preprocessors: {
       'api/**/*.js': ['webpack'],
