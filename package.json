@@ -1,5 +1,5 @@
 {
-  "name": "lit-element-env",
+  "name": "webpack-karma-mocha-chai-sinon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karomamczi/lit-element-env.git"
+    "url": "git+https://github.com/karomamczi/webpack-karma-mocha-chai-sinon.git"
   },
   "author": "karomamczi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karomamczi/lit-element-env/issues"
+    "url": "https://github.com/karomamczi/webpack-karma-mocha-chai-sinon/issues"
   },
-  "homepage": "https://github.com/karomamczi/lit-element-env#readme"
+  "homepage": "https://github.com/karomamczi/webpack-karma-mocha-chai-sinon#readme"
 }
