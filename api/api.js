@@ -11,8 +11,12 @@ export class Car {
   }
 
   accelerate() {
-    this.speed = 1.5 * this.speed;
-    console.log(`Current speed: ${this.speed}`);
+    this.speed = multiplySpeed();
+    console.log(`Speed accelerated to: ${this.speed}`);
+  }
+
+  multiplySpeed() {
+    return 1.5 * this.speed;
   }
 
   break() {
