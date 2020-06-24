@@ -24,8 +24,8 @@
   },
   "scripts": {
     "build": "webpack --mode=production",
-    "test": "karma start --browsers ChromeHeadless karma.conf.js",
-    "test:watch": "karma start --single-run=false --auto-watch --browsers ChromeHeadless karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "test:watch": "karma start --single-run=false --auto-watch --browsers Chrome karma.conf.js"
   },
   "repository": {
     "type": "git",
