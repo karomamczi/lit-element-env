@@ -5,15 +5,23 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "karma": "^5.1.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^3.1.0",
     "karma-mocha": "^2.0.1",
     "karma-mocha-reporter": "^2.2.5",
-    "mocha": "^8.0.1"
+    "karma-webpack": "^4.0.2",
+    "mocha": "^8.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
+    "build": "webpack --mode=production",
     "test": "karma start --browsers ChromeHeadless karma.conf.js",
     "test:watch": "karma start --single-run=false --auto-watch --browsers ChromeHeadless karma.conf.js"
   },
@@ -21,8 +29,8 @@
     "type": "git",
     "url": "git+https://github.com/karomamczi/lit-element-env.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "karomamczi",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/karomamczi/lit-element-env/issues"
   },
