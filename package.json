@@ -1,0 +1,30 @@
+{
+  "name": "lit-element-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "karma": "^5.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "karma start --browsers ChromeHeadless karma.conf.js",
+    "test:watch": "karma start --single-run=false --auto-watch --browsers ChromeHeadless karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karomamczi/lit-element-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karomamczi/lit-element-env/issues"
+  },
+  "homepage": "https://github.com/karomamczi/lit-element-env#readme"
+}
